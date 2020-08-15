@@ -4,6 +4,8 @@ VSCode Theme based on [Quite light](https://github.com/microsoft/vscode/tree/mas
 
 ![](https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/screenshots/vscode-theme-w3schools-light.png)
 
+![](https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/screenshots/reference-w3schools.png)
+
 ## Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/kverawat.vscode-theme-w3schools-light)
