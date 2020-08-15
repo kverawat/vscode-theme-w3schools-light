@@ -6,7 +6,7 @@ VSCode Theme based on [Quite light](https://github.com/microsoft/vscode/tree/mas
 
 ![](https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/screenshots/vscode-theme-w3schools-light.png)
 
-## Base on w3schools.com
+### To feel familiar from learning code on website w3schools
 
 ![](https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/screenshots/reference-w3schools.png)
 
