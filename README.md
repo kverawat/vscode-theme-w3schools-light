@@ -46,6 +46,6 @@ contact me if you want.
 
 ## Credits
 
-[visualstudio.com (Color Theme)](https://code.visualstudio.com/api/extension-guides/color-theme)
-[visualstudio.com (Publishing Extensions)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-[css-tricks.com (Creating a VS Code Theme)](https://css-tricks.com/creating-a-vs-code-theme/)
+- [visualstudio.com (Color Theme)](https://code.visualstudio.com/api/extension-guides/color-theme)
+- [visualstudio.com (Publishing Extensions)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [css-tricks.com (Creating a VS Code Theme)](https://css-tricks.com/creating-a-vs-code-theme/)
