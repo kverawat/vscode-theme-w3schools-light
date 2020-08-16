@@ -4,8 +4,7 @@ All notable changes to the "w3schools-light-theme" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## Version 1.0.0
-* initial release
+## [1.0.0 - 2020-08-16]
 
-## Version 0.1.0
-- pre release
+#### Added
+- initial release
