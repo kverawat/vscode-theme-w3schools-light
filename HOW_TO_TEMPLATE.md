@@ -1,8 +1,7 @@
-## Create a new Color Theme
+# How to Create a new Color Theme?
 
 Credit: https://css-tricks.com/creating-a-vs-code-theme/
-
-Ref: https://code.visualstudio.com/api/extension-guides/color-theme
+Credit: https://code.visualstudio.com/api/extension-guides/color-theme
 
 ## Install
 First, you need to run:
@@ -71,8 +70,13 @@ It will set you up with a base theme to start skinning your color preferences.
 - [VSCode Reference : The full scoop and all the details are here.](https://code.visualstudio.com/api/get-started/your-first-extension)
 - [VSCode Reference : More details about themes in general are here](https://code.visualstudio.com/docs/getstarted/themes?WT.mc_id=csstricks-themearticle-sdras)
 
+___
 
-## Welcome to your VS Code Extension New Project Folder as w3school-light-theme
+## Result
+
+### Welcome to your VS Code Extension
+
+You got new folder `w3school-light-theme`
 
 About `vsc-extension-quickstart.md` inside the new extension for further instructions
 on how to modify, test and publish your extension.
@@ -166,6 +170,8 @@ on new popup windows of VSCode
 
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
+___
+
 ## Install your extension
 
 * **Private (Personal Used Only)** 
@@ -181,6 +187,8 @@ To learn more about scopes and how they're used, check out the [color theme](htt
   To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
 
   It is very easy ! don't worry that.
+
+___
 
 ## How to Publishing a Theme to the Extension Marketplace
 
