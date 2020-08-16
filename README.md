@@ -52,6 +52,10 @@ contact me if you want.
 
 ## Credits
 
-- [visualstudio.com (Color Theme)](https://code.visualstudio.com/api/extension-guides/color-theme)
-- [visualstudio.com (Publishing Extensions)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-- [css-tricks.com (Creating a VS Code Theme)](https://css-tricks.com/creating-a-vs-code-theme/)
+- [visualstudio > Color Theme)](https://code.visualstudio.com/api/extension-guides/color-theme)
+- [visualstudio > Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [css-tricks > Creating a VS Code Theme](https://css-tricks.com/creating-a-vs-code-theme/)
+
+## How we do?
+
+Click here to go to the [how we do it?](https://github.com/kverawat/vscode-theme-w3schools-light/blob/master/HOW_TO_TEMPLATE.md)
