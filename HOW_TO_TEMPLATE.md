@@ -1,8 +1,5 @@
 # How to Create a new Color Theme?
 
-Credit: https://css-tricks.com/creating-a-vs-code-theme/
-Credit: https://code.visualstudio.com/api/extension-guides/color-theme
-
 ## Install
 First, you need to run:
 
