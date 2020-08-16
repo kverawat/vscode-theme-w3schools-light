@@ -1,21 +1,46 @@
 {
-    "name": "w3schools-light-theme",
-    "displayName": "w3schools Light Theme",
-    "description": "VSCode Theme based on Quite light theme. Integrates with a coding color scheme from https://www.w3shools.com",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.48.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "w3schools Light Theme",
-                "uiTheme": "vs",
-                "path": "./themes/w3schools Light Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "w3schools-light-theme",
+  "displayName": "w3schools Light Theme",
+  "description": "VSCode Theme based on Quite light theme. Integrates with a coding color scheme from https://www.w3shools.com",
+  "version": "1.0.0",
+  "publisher": "kverawat",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#e8e8e8",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "w3schools",
+    "theme",
+    "light",
+    "light theme",
+    "w3schools light theme",
+    "w3schools theme",
+    "quite light"
+  ],
+  "icon": "https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "w3schools Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/w3schools Light Theme-color-theme.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/kverawat/vscode-theme-w3schools-light/issues",
+    "email": "kverawat@gmail.com"
+  },
+  "homepage": "https://github.com/kverawat/vscode-theme-w3schools-light",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kverawat/vscode-theme-w3schools-light"
+  }
 }
