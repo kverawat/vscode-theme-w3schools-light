@@ -1,12 +1,6 @@
 .vscode/**
-samples/**
+.vscode-test/**
 .gitignore
-tsconfig.json
 vsc-extension-quickstart.md
-Fixing colors.txt
-screenshots/**
-gulpfile.js
 **/*.psd
 **/*.ai
-.editorconfig
-HOW_TO_TEMPLATE.md
