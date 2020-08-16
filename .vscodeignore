@@ -9,3 +9,4 @@ gulpfile.js
 **/*.psd
 **/*.ai
 .editorconfig
+HOW_TO_TEMPLATE.md
