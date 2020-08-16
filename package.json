@@ -16,13 +16,22 @@
     "Themes"
   ],
   "keywords": [
+    "kverawat",
     "w3schools",
     "theme",
     "light",
     "light theme",
     "w3schools light theme",
     "w3schools theme",
-    "quite light"
+    "quite light",
+    "relaxed theme",
+		"easy on the eyes",
+		"readable theme",
+		"relaxed colors",
+    "simple theme",
+    "day theme",
+    "bright theme",
+    "white theme"
   ],
   "icon": "https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/icon.png",
   "contributes": {
