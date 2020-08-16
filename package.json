@@ -33,7 +33,7 @@
     "bright theme",
     "white theme"
   ],
-  "icon": "https://raw.githubusercontent.com/kverawat/vscode-theme-w3schools-light/master/icon.png",
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
