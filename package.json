@@ -1,0 +1,21 @@
+{
+    "name": "w3schools-light-theme",
+    "displayName": "w3schools Light Theme",
+    "description": "VSCode Theme based on Quite light theme. Integrates with a coding color scheme from https://www.w3shools.com",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "w3schools Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/w3schools Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
