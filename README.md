@@ -12,7 +12,7 @@ VSCode Theme based on [Quite light](https://github.com/microsoft/vscode/tree/mas
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/kverawat.vscode-theme-w3schools-light)
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kverawat.w3schools-light-theme)
 
 ## Looking for the w3schools Dark Theme?
 
