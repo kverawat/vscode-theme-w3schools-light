@@ -2,7 +2,7 @@
   "name": "w3schools-light-theme",
   "displayName": "w3schools Light Theme",
   "description": "VSCode Theme based on Quite light theme. Integrates with a coding color scheme from https://www.w3shools.com",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "publisher": "kverawat",
   "license": "MIT",
   "galleryBanner": {
@@ -16,6 +16,9 @@
     "Themes"
   ],
   "keywords": [
+    "bangkok",
+    "thailand",
+    "verawat",
     "kverawat",
     "w3schools",
     "theme",
@@ -25,13 +28,25 @@
     "w3schools theme",
     "quite light",
     "relaxed theme",
-		"easy on the eyes",
-		"readable theme",
-		"relaxed colors",
+    "easy on the eyes",
+    "readable theme",
+    "relaxed colors",
     "simple theme",
     "day theme",
     "bright theme",
-    "white theme"
+    "white theme",
+    "php theme",
+    "html theme",
+    "css theme",
+    "js theme",
+    "xml theme",
+    "apache theme",
+    "htaccess theme",
+    "conf theme",
+    "scss theme",
+    "sass theme",
+    "perfect theme",
+    "standard theme"
   ],
   "icon": "icon.png",
   "contributes": {
