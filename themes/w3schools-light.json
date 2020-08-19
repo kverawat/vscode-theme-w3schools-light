@@ -1,13 +1,68 @@
 {
   "author": "kverawat",
   "name": "w3schools Light Theme",
+  "type": "light",
+  "colors": {
+    "focusBorder": "#A6B39B",
+    "pickerGroup.foreground": "#A6B39B",
+    "pickerGroup.border": "#749351",
+    "list.activeSelectionForeground": "#6c6c6c",
+    "list.focusBackground": "#CADEB9",
+    "list.hoverBackground": "#e0e0e0",
+    "list.activeSelectionBackground": "#c4d9b1",
+    "list.inactiveSelectionBackground": "#d3dbcd",
+    "list.highlightForeground": "#9769dc",
+    "selection.background": "#C9D0D9",
+    "editor.background": "#ffffff",
+    "editor.foreground": "#000000",
+    "editorWhitespace.foreground": "#cacaca",
+    "editor.lineHighlightBackground": "#E4F6D4",
+    "editorLineNumber.activeForeground": "#222222",
+    "editor.selectionBackground": "#C9D0D9",
+    "minimap.selectionHighlight": "#C9D0D9",
+    "panel.background": "#F5F5F5",
+    "sideBar.background": "#f1f1f1",
+    "sideBar.foreground": "#000000",
+    "sideBar.border": "#bbbbbb",
+    "sideBarSectionHeader.background": "#ede8ef",
+    "editorLineNumber.foreground": "#888888",
+    "editorCursor.foreground": "#54494B",
+    "inputOption.activeBorder": "#adafb7",
+    "dropdown.background": "#F5F5F5",
+    "editor.findMatchBackground": "#BF9CAC",
+    "editor.findMatchHighlightBackground": "#edc9d8",
+    "peekViewEditor.matchHighlightBackground": "#C2DFE3",
+    "peekViewTitle.background": "#F2F8FC",
+    "peekViewEditor.background": "#F2F8FC",
+    "peekViewResult.background": "#F2F8FC",
+    "peekView.border": "#705697",
+    "peekViewResult.matchHighlightBackground": "#93C6D6",
+    "statusBar.background": "#705697",
+    "statusBar.noFolderBackground": "#705697",
+    "statusBar.debuggingBackground": "#705697",
+    "statusBarItem.remoteBackground": "#4e3c69",
+    "activityBar.background": "#0066b8",
+    "activityBar.foreground": "#ffffffe6",
+    "activityBarBadge.background": "#ff0000",
+    "activityBar.border": "#0066b8",
+    "titleBar.activeBackground": "#c4b7d7",
+    "button.background": "#705697",
+    "editorGroup.dropBackground": "#C9D0D988",
+    "inputValidation.infoBorder": "#4ec1e5",
+    "inputValidation.infoBackground": "#f2fcff",
+    "inputValidation.warningBackground": "#fffee2",
+    "inputValidation.warningBorder": "#ffe055",
+    "inputValidation.errorBackground": "#ffeaea",
+    "inputValidation.errorBorder": "#f1897f",
+    "errorForeground": "#f1897f",
+    "badge.background": "#705697AA",
+    "badge.foreground": "#ffffff",
+    "progressBar.background": "#705697",
+    "walkThrough.embeddedEditorBackground": "#00000014",
+    "editorIndentGuide.background": "#5e81ce52",
+    "editorIndentGuide.activeBackground": "#bbbbbb"
+  },
   "tokenColors": [
-    {
-      "name": "[VSCODE-CUSTOM] foreground color",
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
     {
       "name": "[VSCODE-CUSTOM] meta & groovy Embedded",
       "scope": [
@@ -345,7 +400,12 @@
     {
       "name": "[VSCODE-NEW] CSS: Rule such as @charset 'UTF-8'",
       "scope": [
-        "meta.at-rule.header.css"
+        "meta.at-rule.header.css",
+        "meta.at-rule.charset invalid.illegal.not-double-quoted.charset.css",
+        "meta.at-rule.import.css string.quoted.double.css punctuation.definition.string.begin.css",
+        "meta.at-rule.import.css string.quoted.double.css punctuation.definition.string.end.css",
+        "meta.at-rule.import.css string.quoted.single.css punctuation.definition.string.begin.css",
+        "meta.at-rule.import.css string.quoted.single.css punctuation.definition.string.end.css"
       ],
       "settings": {
         "foreground": "#0000cd"
@@ -361,12 +421,20 @@
       }
     },
     {
-      "name": "[VSCODE-NEW] CSS: Rule such as @media, @keyframes, @-webkit-keyframes, @import, @charset",
+      "name": "[VSCODE-NEW] CSS: Rule such as @media, @keyframes, @-webkit-keyframes, @import, @charset, @font-face, @namespace, @page, @support, @font-feature-values, @counter-style",
       "scope": [
         "meta.at-rule.media.header.css keyword.control.at-rule.media.css",
         "meta.at-rule.keyframes.header.css keyword.control.at-rule.keyframes.css",
+        "meta.at-rule.supports.header.css keyword.control.at-rule.supports.css",
         "meta.at-rule.import.css keyword.control.at-rule.import.css",
-        "meta.at-rule.charset.css keyword.control.at-rule.charset.css"
+        "meta.at-rule.charset.css keyword.control.at-rule.charset.css",
+        "meta.at-rule.font-face.css keyword.control.at-rule.font-face.css",
+        "meta.at-rule.font-features.css keyword.control.at-rule.font-feature-values.css",
+        "meta.at-rule.namespace.css keyword.control.at-rule.namespace.css",
+        "meta.at-rule.page.css keyword.control.at-rule.page.css",
+        "meta.at-rule.counter-style.header.css keyword.control.at-rule.counter-style.css",
+        "meta.at-rule.viewport.css keyword.control.at-rule.viewport.css",
+        "meta.at-rule.document.header.css keyword.control.at-rule.document.css"
       ],
       "settings": {
         "foreground": "#000000"
@@ -378,7 +446,12 @@
         "meta.at-rule.media.header.css keyword.operator.logical.only.media.css",
         "meta.at-rule.media.header.css keyword.operator.logical.and.media.css",
         "meta.at-rule.keyframes.header.css variable.parameter.keyframe-list.css",
-        "meta.at-rule.import.css keyword.operator.logical.and.media.css"
+        "meta.at-rule.import.css keyword.operator.logical.and.media.css",
+        "meta.at-rule.import.css keyword.operator.logical.only.media.css",
+        "meta.at-rule.supports.header.css keyword.operator.logical.feature.and.css",
+        "meta.at-rule.supports.header.css keyword.operator.logical.feature.or.css",
+        "meta.at-rule.supports.header.css meta.feature-query.css keyword.operator.logical.feature.not.css",
+        "meta.at-rule.supports.header.css keyword.operator.logical.feature.not.css"
       ],
       "settings": {
         "foreground": "#0000cd"
@@ -461,10 +534,20 @@
         "meta.selector entity punctuation",
         "meta.selector meta.attribute-selector string.quoted.double.css",
         "entity.name.tag.css",
-        "entity.other.attribute-name.id.css punctuation.definition.entity.css"
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "meta.selector.css support.constant.language-range.css"
       ],
       "settings": {
         "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] CSS: Selectors string quote",
+      "scope": [
+        "meta.selector meta.attribute-selector.css string.quoted.double.css"
+      ],
+      "settings": {
+        "foreground": "#0000cd" // Original #7A3E9D
       }
     },
     {
@@ -515,6 +598,35 @@
       "scope": "keyword.other.important",
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] CSS : variable property list such as --main-color , --blue-color inside :root { } and inside property value such as var(--primary_color) ",
+      "scope": [
+        "meta.property-list.css variable.css",
+        "meta.property-list.css meta.property-value.css meta.function.variable.css variable.argument.css",
+        "meta.at-rule.supports.header.css meta.feature-query.css variable.css"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] CSS : @support meta.at-rule.support.scss",
+      "scope": [
+        "meta.at-rule.supports.header.css meta.feature-query.css meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#0000cd" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] CSS : @support meta.at-rule.support.scss meta.property-name.scss",
+      "scope": [
+        "meta.at-rule.supports.header.css meta.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#a52a2a" // Original ไม่มี สร้างใหม่
       }
     },
     {
@@ -776,7 +888,7 @@
       }
     },
     {
-      "name": "[VSCODE-NEW] PHP tag คือ <?php และ ?>",
+      "name": "[VSCODE-NEW] PHP tag <?php ... ?>",
       "scope": [
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.end.php"
@@ -785,68 +897,510 @@
         "fontStyle": "bold",
         "foreground": "#555555"
       }
+    },
+    {
+      "name": "[VSCODE-NEW] XML: Tag Names inside HTML and PHP file (Only <?xml version=...encoding...?> )",
+      "scope": [
+        "meta.tag.metadata.processing.xml.html punctuation.definition.tag.html",
+        "meta.tag.metadata.processing.xml.html punctuation.definition.string.begin.html",
+        "meta.tag.metadata.processing.xml.html punctuation.definition.string.end.html",
+        "meta.tag.metadata.processing.xml.html entity.other.attribute-name.html",
+        "meta.tag.metadata.processing.xml.html entity.name.tag.html",
+        "meta.tag.metadata.processing.xml.html punctuation.definition.tag.html",
+        "meta.tag.metadata.processing.xml.html punctuation.separator.key-value.html",
+        "meta.tag.metadata.processing.xml.html string.quoted.double.html",
+        "meta.tag.metadata.processing.xml.html string.quoted.single.html"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] XML: Tag Names on XML file (Only <?xml version=...encoding...?> )",
+      "scope": [
+        "meta.tag.preprocessor.xml",
+        "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
+        "meta.tag.preprocessor.xml entity.name.tag.xml",
+        "meta.tag.preprocessor.xml entity.other.attribute-name.xml",
+        "meta.tag.preprocessor.xml punctuation.definition.string.begin.xml",
+        "meta.tag.preprocessor.xml punctuation.definition.string.end.xml",
+        "meta.tag.preprocessor.xml punctuation.definition.tag.html",
+        "meta.tag.preprocessor.xml punctuation.separator.key-value.html",
+        "meta.tag.preprocessor.xml string.quoted.double.xml",
+        "meta.tag.preprocessor.xml string.quoted.single.xml"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: punctuation",
+      "scope": [
+        "source.python punctuation"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: magic function",
+      "scope": [
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: support type exception",
+      "scope": [
+        "support.type.exception.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: Constant language",
+      "scope": [
+        "source.python constant.language.python",
+        "source.python punctuation.definition.string.begin.python",
+        "source.python punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#0000CD"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: RegExp",
+      "scope": [
+        "source.python support.other.escape.special.regexp"
+      ],
+      "settings": {
+        "foreground": "#0000CD"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: keyword",
+      "scope": [
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "#0000CD"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: custom function 1 Ex: print, set, int, float, complex",
+      "scope": [
+        "meta.function-call.python support.function.builtin.python",
+        "meta.function-call.python support.type.python"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Python: custom function 2 Ex union, update, get, pop, clear, add, remove discard",
+      "scope": [
+        "meta.member.access.python meta.function-call.python meta.function-call.generic.python",
+        "meta.member.access.python meta.attribute.python",
+        "meta.member.access.python meta.function-call.python support.function.magic.python",
+        "meta.member.access.python meta.item-access.python meta.indexed-name.python"
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf entity.tag.apacheconf"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf keyword.headers.apacheconf",
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf keyword.core.apacheconf",
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf keyword.rewrite.apacheconf",
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf string.value.apacheconf"
+      ],
+      "settings": {
+        "foreground": "#008855"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf entity.mime-type.apacheconf"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] Apache",
+      "scope": [
+        "source.apacheconf",
+        "source.apacheconf keyword.access.apacheconf",
+        "source.apacheconf constant.integer.apacheconf",
+        "source.apacheconf variable.misc.apacheconf",
+        "source.apacheconf punctuation.variable.apacheconf",
+        "source.apacheconf string.regexp.apacheconf",
+        "source.apacheconf string.replacement.apacheconf",
+        "source.apacheconf entity.helper.apacheconf"
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : function",
+      "scope": [
+        "source.css.scss entity.name.function.scss",
+        "source.css.scss support.function.misc.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Selectors",
+      "scope": [
+        "source.css.scss meta.attribute-selector.scss entity.other.attribute-name.attribute.scss",
+        "source.css.scss support.constant.language-range.css"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Selectors",
+      "scope": [
+        "source.css.scss meta.attribute-selector.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : variable",
+      "scope": [
+        "source.css.scss variable"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : variable property list such as --main-color , --blue-color inside :root { } ",
+      "scope": [
+        "source.css.scss meta.property-list.scss variable.scss",
+        "source.css.scss meta.at-rule.supports.scss meta.property-name.scss"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : variable interpolation inside meta at ",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.at-rule.at-root.scss variable.interpolation.scss variable.scss"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : Rule such as @media, @keyframes, @-webkit-keyframes, @import, @charset, @font-face, @namespace, @page, @support",
+      "scope": [
+        "source.css.scss meta.at-rule.media.scss keyword.control.at-rule.media.scss",
+        "source.css.scss meta.at-rule.keyframes.scss keyword.control.at-rule.keyframes.scss",
+        "source.css.scss meta.at-rule.supports.scss keyword.control.at-rule.supports.scss",
+        "source.css.scss meta.at-rule.import.scss keyword.control.at-rule.import.scss",
+        "source.css.scss meta.at-rule.charset.scss keyword.control.at-rule.charset.scss",
+        "source.css.scss meta.at-rule.fontface.scss keyword.control.at-rule.fontface.scss",
+        "source.css.scss meta.at-rule.namespace.scss keyword.control.at-rule.namespace.scss",
+        "source.css.scss meta.at-rule.page.scss keyword.control.at-rule.page.scss"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : Rule such as @mixin, @include, @at-root, @debug, @each, @error, @extend, @for, @forward, @function, @if, @else, @use, @while @return",
+      "scope": [
+        "source.css.scss meta.at-rule.mixin.scss keyword.control.at-rule.mixin.scss",
+        "source.css.scss meta.at-rule.include.scss keyword.control.at-rule.include.scss",
+        "source.css.scss meta.at-rule.at-root.scss keyword.control.at-rule.at-root.scss",
+        "source.css.scss meta.at-rule.warn.scss keyword.control.warn.scss",
+        "source.css.scss meta.at-rule.each.scss keyword.control.each.scss",
+        "source.css.scss meta.at-rule.extend.scss keyword.control.at-rule.extend.scss",
+        "source.css.scss meta.at-rule.for.scss keyword.control.for.scss",
+        "source.css.scss meta.at-rule.forward.scss keyword.control.at-rule.forward.scss",
+        "source.css.scss meta.at-rule.function.scss keyword.control.at-rule.function.scss",
+        "source.css.scss meta.at-rule.if.scss keyword.control.if.scss",
+        "source.css.scss meta.at-rule.else.scss keyword.control.else.scss",
+        "source.css.scss meta.at-rule.use.scss keyword.control.at-rule.use.scss",
+        "source.css.scss meta.at-rule.while.scss keyword.control.while.scss",
+        "source.css.scss meta.at-rule.return.scss keyword.control.return.scss"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS : keyword.control.content such as @content",
+      "scope": [
+        "source.css.scss keyword.control.content.scss"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Rule such as @media only screen and () and @keyframes __utilPulse and @support (and) (or) (not)",
+      "scope": [
+        "source.css.scss meta.at-rule.media.scss keyword.operator.logical.scss",
+        "source.css.scss meta.at-rule.keyframes.scss",
+        "source.css.scss meta.at-rule.supports.scss keyword.operator.logical.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Rule @keyframes ... { from{} to{} and { 0%{} 25%{} 50%{} 100%{}}",
+      "scope": [
+        "source.css.scss meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Rule such as @media ... screen , @import ... screen , @media ... print , @import ... print",
+      "scope": [
+        "source.css.scss meta.at-rule.media.scss support.constant.media.css"
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: Attribute Name Pseudo Class such as :root, ::before, ::after",
+      "scope": [
+        "source.css.scss entity.other.attribute-name.pseudo-class.css",
+        "source.css.scss entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#008855"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS",
+      "scope": [
+        "source.css.scss punctuation.definition.string.begin.scss",
+        "source.css.scss punctuation.definition.string.end.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS",
+      "scope": [
+        "source.css.scss meta.at-rule.mixin.scss entity.name.function.scss"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS such as @font-face { src: .... } ",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.property-value.scss variable.parameter.url.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS $variable",
+      "scope": [
+        "source.css.scss meta.definition.variable.scss variable.scss"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS $variable value",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS",
+      "scope": [
+        "source.css.scss entity.other.attribute-name.class.css",
+        "source.css.scss entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#a52a2a"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: variable $ inside @for such as @for $var ...",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.at-rule.for.scss variable.scss"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: constant property value inside @for such as @for ... start ... end ",
+      "scope": [
+        "source.css.scss meta.at-rule.for.scss support.constant.property-value.css",
+        "source.css.scss meta.property-list.scss meta.at-rule.for.scss support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: @warn meta.at-rule.warn.scss",
+      "scope": [
+        "source.css.scss meta.at-rule.warn.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: @mixin meta.at-rule.mixin.scss",
+      "scope": [
+        "source.css.scss meta.at-rule.mixin.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: @if meta.at-rule.if.scss and meta.at-rule.if.scss keyword.operator.logical.scss",
+      "scope": [
+        "source.css.scss meta.at-rule.if.scss keyword.operator.logical.scss",
+        "source.css.scss meta.at-rule.if.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: @support meta.at-rule.support.scss",
+      "scope": [
+        "source.css.scss meta.at-rule.supports.scss"
+      ],
+      "settings": {
+        "foreground": "#0000cd" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SCSS: @support meta.at-rule.support.scss meta.property-name.scss",
+      "scope": [
+        "source.css.scss meta.at-rule.supports.scss meta.property-name.scss"
+      ],
+      "settings": {
+        "foreground": "#a52a2a" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: keyword @",
+      "scope": [
+        "source.sass keyword.control.at-rule.css.sass",
+        "source.sass keyword.control.at-rule.use"
+      ],
+      "settings": {
+        "foreground": "#000000" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: variable",
+      "scope": [
+        "source.sass variable"
+      ],
+      "settings": {
+        "foreground": "#444444" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: attribute",
+      "scope": [
+        "source.sass entity.other.attribute-name",
+        "source.sass entity.other.attribute-selector.sass"
+      ],
+      "settings": {
+        "foreground": "#a52a2a" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: constant",
+      "scope": [
+        "source.sass constant",
+        "source.sass constant.language.color"
+      ],
+      "settings": {
+        "foreground": "#0000cd" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: function",
+      "scope": [
+        "source.sass support.function.name.sass entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#a52a2a" // Original ไม่มี สร้างใหม่
+      }
+    },
+    {
+      "name": "[VSCODE-NEW] SASS: function",
+      "scope": [
+        "source.sass entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#0000cd" // Original ไม่มี สร้างใหม่
+      }
     }
-  ],
-  "colors": {
-    "focusBorder": "#A6B39B",
-    "pickerGroup.foreground": "#A6B39B",
-    "pickerGroup.border": "#749351",
-    "list.activeSelectionForeground": "#6c6c6c",
-    "list.focusBackground": "#CADEB9",
-    "list.hoverBackground": "#e0e0e0",
-    "list.activeSelectionBackground": "#c4d9b1",
-    "list.inactiveSelectionBackground": "#d3dbcd",
-    "list.highlightForeground": "#9769dc",
-    "selection.background": "#C9D0D9",
-    "editor.background": "#ffffff",
-    "editor.foreground": "#000000",
-    "editorWhitespace.foreground": "#cacaca",
-    "editor.lineHighlightBackground": "#E4F6D4",
-    "editorLineNumber.activeForeground": "#222222",
-    "editor.selectionBackground": "#C9D0D9",
-    "minimap.selectionHighlight": "#C9D0D9",
-    "panel.background": "#F5F5F5",
-    "sideBar.background": "#f1f1f1",
-    "sideBar.foreground": "#000000",
-    "sideBar.border": "#bbbbbb",
-    "sideBarSectionHeader.background": "#ede8ef",
-    "editorLineNumber.foreground": "#888888",
-    "editorCursor.foreground": "#54494B",
-    "inputOption.activeBorder": "#adafb7",
-    "dropdown.background": "#F5F5F5",
-    "editor.findMatchBackground": "#BF9CAC",
-    "editor.findMatchHighlightBackground": "#edc9d8",
-    "peekViewEditor.matchHighlightBackground": "#C2DFE3",
-    "peekViewTitle.background": "#F2F8FC",
-    "peekViewEditor.background": "#F2F8FC",
-    "peekViewResult.background": "#F2F8FC",
-    "peekView.border": "#705697",
-    "peekViewResult.matchHighlightBackground": "#93C6D6",
-    "statusBar.background": "#705697",
-    "statusBar.noFolderBackground": "#705697",
-    "statusBar.debuggingBackground": "#705697",
-    "statusBarItem.remoteBackground": "#4e3c69",
-    "activityBar.background": "#0066b8",
-    "activityBar.foreground": "#ffffffe6",
-    "activityBarBadge.background": "#ff0000",
-    "activityBar.border": "#0066b8",
-    "titleBar.activeBackground": "#c4b7d7",
-    "button.background": "#705697",
-    "editorGroup.dropBackground": "#C9D0D988",
-    "inputValidation.infoBorder": "#4ec1e5",
-    "inputValidation.infoBackground": "#f2fcff",
-    "inputValidation.warningBackground": "#fffee2",
-    "inputValidation.warningBorder": "#ffe055",
-    "inputValidation.errorBackground": "#ffeaea",
-    "inputValidation.errorBorder": "#f1897f",
-    "errorForeground": "#f1897f",
-    "badge.background": "#705697AA",
-    "badge.foreground": "#ffffff",
-    "progressBar.background": "#705697",
-    "walkThrough.embeddedEditorBackground": "#00000014",
-    "editorIndentGuide.background": "##5e81ce52",
-    "editorIndentGuide.activeBackground": "#bbbbbb"
-  },
-  "semanticHighlighting": true
+  ]
 }
-
