@@ -2,7 +2,7 @@
   "name": "w3schools-light-theme",
   "displayName": "w3schools Light Theme",
   "description": "VSCode Theme based on Quite light theme. Integrates with a coding color scheme from https://www.w3shools.com",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "publisher": "kverawat",
   "license": "MIT",
   "galleryBanner": {
