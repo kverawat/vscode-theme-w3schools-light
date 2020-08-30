@@ -4,6 +4,16 @@ All notable changes to the "w3schools-light-theme" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [1.2.0 - 2020-08-30]
+
+- Changed the original tab color from normal to.
+
+      "tab.activeBackground": "#ffffff",
+      "tab.inactiveBackground": "#e0e0e0",
+      "editorGroupHeader.tabsBackground": "#0065b873",
+
+    Because we need to improve the eye comfort and see the difference of the currently active tab with the currently open but not active tab.
+
 ### [1.1.1 - 2020-08-19]
 
 - Fixed the link for installing "w3schools-light-theme" extension from VSCode market.
