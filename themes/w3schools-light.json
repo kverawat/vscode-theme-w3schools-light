@@ -60,7 +60,10 @@
     "progressBar.background": "#705697",
     "walkThrough.embeddedEditorBackground": "#00000014",
     "editorIndentGuide.background": "#5e81ce52",
-    "editorIndentGuide.activeBackground": "#bbbbbb"
+    "editorIndentGuide.activeBackground": "#bbbbbb",
+    "tab.activeBackground": "#ffffff",
+    "tab.inactiveBackground": "#e0e0e0",
+    "editorGroupHeader.tabsBackground": "#0065b873"
   },
   "tokenColors": [
     {
